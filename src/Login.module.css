@@ -1,0 +1,84 @@
+
+body{
+    background: linear-gradient(to right, #024dd8d2, #137df7);
+}
+
+.loginContainer{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 250px;
+ 
+    box-sizing: content-box;
+    background-color:rgb(245, 245, 245);
+    
+    border-radius: 14px;
+    animation: mymove 2s ;
+    animation-timing-function: ease-in-out;
+    
+  animation-fill-mode: backwards;
+
+}
+@keyframes mymove {
+     from { 
+     transform:scale(0.5)}
+  to { transform: scaleZ(1.2);}
+}
+.box{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 90%;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-top:0;
+    border-bottom:0;
+    border-right:0;
+    background-color:rgb(245, 245, 245);
+
+
+}
+.button{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 90%;
+    cursor:pointer;
+
+}
+.nameErr{
+    display:none;
+    font-size:12px;
+}
+input:focus {
+  border: 1px solid #555;
+  border: none;
+}
+input{
+    border:none;
+}
+input:visited{
+    border: none;
+}
+h2{
+    color:whitesmoke;
+}
+
+@media screen and (max-width: 576px){
+    .loginContainer{
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    height: 250px;
+
+
+}
+
+
+}

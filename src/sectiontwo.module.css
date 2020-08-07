@@ -1,0 +1,62 @@
+.SectionTwo{
+    display: inline-block;
+    position: absolute;
+    width: 30%;
+    height: 680px;
+    overflow: auto;
+    font-style:italic;
+    color:white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color:rgb(245, 245, 245);
+    color: rgb(60, 126, 212);
+    border-left: 2px solid black;
+}
+.PlayListContainer{
+   
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 5%;
+    height:170px;
+    box-shadow: 2px 4px 2px royalblue;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom:20px;
+}
+
+.Pic{
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to right, #7ca3ebd2, #137df7);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-track {
+    background-color:white;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 576px){
+
+.SectionTwo{
+    margin-top:10px;
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    overflow: auto;
+    
+    
+}
+.SectionTwo{
+  border-left: none;
+}
+
+
+}
